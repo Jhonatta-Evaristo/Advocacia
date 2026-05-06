@@ -106,13 +106,7 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 opacity-0 animate-fade-up" style={{ animationDelay: "1.1s" }}>
-        <a href="#servicos" className="flex flex-col items-center gap-2 text-white/30 hover:text-gold transition-colors group">
-          <span className="text-xs tracking-widest uppercase font-outfit">Explore</span>
-          <ChevronDown className="w-4 h-4 animate-bounce" />
-        </a>
-      </div>
+
     </section>
   );
 }
