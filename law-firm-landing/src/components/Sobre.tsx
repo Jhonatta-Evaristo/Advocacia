@@ -12,7 +12,7 @@ const highlights = [
 const LAWYER_PHOTO = "/lawyer.png";
 
 function LawyerPhoto() {
-  const [src, setSrc] = useState(LAWYER_PHOTO);
+  const [src] = useState(LAWYER_PHOTO);
   const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(false);
 
