@@ -1,5 +1,4 @@
 import { useEffect, useRef } from "react";
-import { ChevronDown } from "lucide-react";
 
 export function Hero() {
   const headingRef = useRef<HTMLHeadingElement>(null);
