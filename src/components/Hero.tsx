@@ -41,7 +41,7 @@ export function Hero() {
           className="text-gold text-xs tracking-[0.4em] uppercase font-outfit mb-8 opacity-0 animate-fade-up"
           style={{ animationDelay: "0.1s" }}
         >
-          Advocacia de Excelência · Desde 2003
+
         </p>
 
         {/* Main Heading */}

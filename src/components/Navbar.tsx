@@ -27,29 +27,29 @@ export function Navbar() {
           : "bg-transparent py-5"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 flex items-center justify-between">
+      <div className="max-w-[1400px] mx-auto px-8 lg:px-12 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2 group">
-          <Scale className="w-5 h-5 text-gold" />
-          <span className="font-cinzel text-white text-sm tracking-[0.2em] uppercase">
+        <a href="#" className="flex items-center gap-3 group">
+          <Scale className="w-5 h-5 text-gold transition-transform group-hover:rotate-12" />
+          <span className="font-cinzel text-white text-sm md:text-base tracking-[0.25em] uppercase">
             Wagner & Associados
           </span>
         </a>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-12">
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className="text-white/70 hover:text-gold text-xs tracking-widest uppercase font-outfit transition-colors duration-300"
+              className="text-white/60 hover:text-gold text-[11px] tracking-[0.2em] uppercase font-outfit transition-all duration-300 hover:tracking-[0.25em]"
             >
               {l.label}
             </a>
           ))}
           <a
             href="#contato"
-            className="border border-gold text-gold px-5 py-2 text-xs tracking-widest uppercase font-outfit hover:bg-gold hover:text-onyx transition-all duration-300"
+            className="border border-gold/50 text-gold px-8 py-2.5 text-[11px] tracking-[0.2em] uppercase font-outfit hover:bg-gold hover:text-onyx transition-all duration-300"
           >
             Consulta Gratuita
           </a>
